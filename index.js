@@ -41,11 +41,11 @@ module.exports = {
     'prefer-numeric-literals': ERROR,
     'prefer-rest-params': ERROR,
     'prefer-spread': ERROR,
-    'prefer-destructuring': [
-      ERROR,
-      { array: true, object: true },
-      { enforceForRenamedProperties: true },
-    ],
+    // 'prefer-destructuring': [
+      // ERROR,
+      // { array: true, object: true },
+      // { enforceForRenamedProperties: true },
+    // ],
 
     // 'comma-dangle': ['error', 'never'],
     'no-await-in-loop': ERROR,
