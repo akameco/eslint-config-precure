@@ -26,6 +26,11 @@ module.exports = {
     'prettier/react',
   ],
   plugins: ['prettier', 'flowtype', 'react', 'import'],
+  settings: {
+    flowtype: {
+      onlyFilesWithFlowAnnotation: true,
+    },
+  },
   rules: {
     // prettier
     'prettier/prettier': [
@@ -42,9 +47,9 @@ module.exports = {
     'prefer-rest-params': ERROR,
     'prefer-spread': ERROR,
     // 'prefer-destructuring': [
-      // ERROR,
-      // { array: true, object: true },
-      // { enforceForRenamedProperties: true },
+    // ERROR,
+    // { array: true, object: true },
+    // { enforceForRenamedProperties: true },
     // ],
 
     // 'comma-dangle': ['error', 'never'],
