@@ -272,7 +272,7 @@ module.exports = {
     'import/prefer-default-export': ERROR,
     'import/no-extraneous-dependencies': ERROR,
     'import/no-mutable-exports': ERROR,
-    'import/no-commonjs': ERROR,
+    'import/no-commonjs': OFF,
     'import/order': ERROR,
   },
 }
