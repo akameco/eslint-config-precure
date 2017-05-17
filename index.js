@@ -273,6 +273,6 @@ module.exports = {
     'import/no-extraneous-dependencies': ERROR,
     'import/no-mutable-exports': ERROR,
     'import/no-commonjs': OFF,
-    'import/order': ERROR,
-  },
+    'import/order': ERROR
+  }
 }
