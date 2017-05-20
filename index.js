@@ -264,7 +264,10 @@ module.exports = {
     // 'flowtype/no-primitive-constructor-types': ERROR,
     'flowtype/require-parameter-type': [ERROR, { excludeArrowFunctions: true }],
     'flowtype/no-dupe-keys': ERROR,
-    'flowtype/type-id-match': [ERROR, '^([A-Z]+[a-z0-9A-Z]*)$'],
+    'flowtype/type-id-match': OFF,
+    'flowtype/define-flow-type': ERROR,
+    'flowtype/no-types-missing-file-annotation': ERROR,
+    'flowtype/use-flow-type': WARNING,
 
     // import
     'import/newline-after-import': ERROR,
