@@ -1,7 +1,7 @@
-'use strict'
-const OFF = 0
-const WARNING = 1
-const ERROR = 2
+'use strict';
+const OFF = 0;
+const WARNING = 1;
+const ERROR = 2;
 
 module.exports = {
   parser: 'babel-eslint',
@@ -10,32 +10,32 @@ module.exports = {
     sourceType: 'module',
     ecmaFeatures: {
       jsx: true,
-      experimentalObjectRestSpread: true,
-    },
+      experimentalObjectRestSpread: true
+    }
   },
   env: {
     browser: true,
     node: true,
-    es6: true,
+    es6: true
   },
   extends: [
     'plugin:react/recommended',
     'plugin:import/errors',
     'prettier',
     'prettier/flowtype',
-    'prettier/react',
+    'prettier/react'
   ],
   plugins: ['prettier', 'flowtype', 'react', 'import'],
   settings: {
     flowtype: {
-      onlyFilesWithFlowAnnotation: true,
-    },
+      onlyFilesWithFlowAnnotation: true
+    }
   },
   rules: {
     // prettier
     'prettier/prettier': [
       ERROR,
-      { trailingComma: 'es5', singleQuote: true, semi: false },
+      { trailingComma: 'es5', singleQuote: true, semi: false }
     ],
     // rules
     'prefer-const': ERROR,
@@ -151,7 +151,7 @@ module.exports = {
     'no-undef': [ERROR, { typeof: true }],
     'no-unused-vars': [
       ERROR,
-      { argsIgnorePattern: '^_+$', ignoreRestSiblings: true },
+      { argsIgnorePattern: '^_+$', ignoreRestSiblings: true }
     ],
     'no-use-before-define': [ERROR, 'nofunc'],
     'handle-callback-err': [WARNING, 'err'],
@@ -164,7 +164,7 @@ module.exports = {
       'freelist',
       'smalloc',
       'sys',
-      'colors',
+      'colors'
     ],
     'no-restricted-modules': [
       'error',
@@ -172,7 +172,7 @@ module.exports = {
       'freelist',
       'smalloc',
       'sys',
-      'colors',
+      'colors'
     ],
     // 'array-bracket-spacing': [ERROR, 'never'],
     // 'brace-style': [ERROR]
@@ -230,8 +230,8 @@ module.exports = {
       'always',
       {
         line: { exceptions: ['-'] },
-        block: { markers: ['!'], balanced: true },
-      },
+        block: { markers: ['!'], balanced: true }
+      }
     ],
     // 'template-tag-spacing': [ERROR, 'never'],
     'unicode-bom': [ERROR, 'never'],
@@ -278,4 +278,4 @@ module.exports = {
     'import/no-commonjs': OFF,
     'import/order': ERROR
   }
-}
+};
