@@ -262,7 +262,7 @@ module.exports = {
 
     // flow https://github.com/gajus/eslint-plugin-flowtype
     // 'flowtype/no-primitive-constructor-types': ERROR,
-    'flowtype/require-parameter-type': [ERROR, { excludeArrowFunctions: true }],
+    'flowtype/require-parameter-type': [WARNING, { excludeArrowFunctions: true }],
     'flowtype/no-dupe-keys': ERROR,
     'flowtype/type-id-match': OFF,
     'flowtype/define-flow-type': ERROR,
