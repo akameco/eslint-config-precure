@@ -272,7 +272,7 @@ module.exports = {
     // import
     'import/newline-after-import': ERROR,
     'import/imports-first': ERROR,
-    'import/prefer-default-export': ERROR,
+    'import/prefer-default-export': OFF,
     'import/no-extraneous-dependencies': ERROR,
     'import/no-mutable-exports': ERROR,
     'import/no-commonjs': OFF,
