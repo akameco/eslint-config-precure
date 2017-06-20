@@ -38,7 +38,6 @@ module.exports = {
       // { trailingComma: 'es5', singleQuote: true, semi: false }
     // ],
     // rules
-    'prefer-const': ERROR,
     'no-var': ERROR,
     'object-shorthand': [ERROR, 'always'],
     'prefer-arrow-callback': ERROR,
@@ -156,7 +155,6 @@ module.exports = {
     'no-use-before-define': [ERROR, 'nofunc'],
     'handle-callback-err': [WARNING, 'err'],
     'no-mixed-requires': [ERROR, { grouping: true, allowCall: true }],
-    'no-new-require': ERROR,
     'no-path-concat': ERROR,
     'no-restricted-imports': [
       'error',

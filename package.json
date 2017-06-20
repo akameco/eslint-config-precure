@@ -27,15 +27,15 @@
   },
   "dependencies": {
     "babel-eslint": "^7.2.3",
-    "eslint-config-prettier": "^2.1.1",
+    "eslint-config-prettier": "^2.2.0",
     "eslint-plugin-flowtype": "^2.34.0",
     "eslint-plugin-import": "^2.3.0",
-    "eslint-plugin-prettier": "^2.1.1",
+    "eslint-plugin-prettier": "^2.1.2",
     "eslint-plugin-react": "^7.1.0",
-    "eslint-plugin-unicorn": "^2.1.1"
+    "eslint-plugin-unicorn": "^2.1.2"
   },
   "devDependencies": {
-    "eslint": "^4.0.0",
+    "eslint": "^3.19.0",
     "prettier": "^1.4.4"
   },
   "peerDependencies": {
