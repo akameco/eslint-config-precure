@@ -33,10 +33,10 @@ module.exports = {
   },
   rules: {
     // prettier
-    'prettier/prettier': [
-      ERROR,
-      { trailingComma: 'es5', singleQuote: true, semi: false }
-    ],
+    // 'prettier/prettier': [
+      // ERROR,
+      // { trailingComma: 'es5', singleQuote: true, semi: false }
+    // ],
     // rules
     'prefer-const': ERROR,
     'no-var': ERROR,
