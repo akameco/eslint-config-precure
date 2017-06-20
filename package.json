@@ -23,7 +23,8 @@
   ],
   "scripts": {
     "prettier": "prettier --single-quote index.js",
-    "eslint": "eslint -c ./index.js index.js"
+    "eslint": "eslint -c ./index.js index.js",
+    "test": "npm run eslint"
   },
   "dependencies": {
     "babel-eslint": "^7.2.3",
