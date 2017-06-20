@@ -21,6 +21,10 @@
     "react",
     "flowtype"
   ],
+  "scripts": {
+    "prettier": "prettier --single-quote index.js",
+    "eslint": "eslint -c ./index.js index.js"
+  },
   "dependencies": {
     "babel-eslint": "^7.2.3",
     "eslint-config-prettier": "^2.1.1",
@@ -28,11 +32,11 @@
     "eslint-plugin-import": "^2.3.0",
     "eslint-plugin-prettier": "^2.1.1",
     "eslint-plugin-react": "^7.1.0",
-    "eslint-plugin-unicorn": "^2.1.1",
-    "prettier": "^1.4.4"
+    "eslint-plugin-unicorn": "^2.1.1"
   },
   "devDependencies": {
-    "eslint": "^4.0.0"
+    "eslint": "^4.0.0",
+    "prettier": "^1.4.4"
   },
   "peerDependencies": {
     "eslint": ">=3.0.0"
