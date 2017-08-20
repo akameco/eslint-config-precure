@@ -252,7 +252,7 @@ module.exports = {
     // 'yield-star-spacing': [ERROR, 'both']
 
     // react
-    'react/prefer-stateless-function': ERROR,
+    // 'react/prefer-stateless-function': ERROR,
     'react/jsx-boolean-value': ERROR,
     'react/jsx-filename-extension': [ERROR, { extensions: ['.js'] }],
     'react/jsx-handler-names': ERROR,
@@ -260,10 +260,10 @@ module.exports = {
 
     // flow https://github.com/gajus/eslint-plugin-flowtype
     // 'flowtype/no-primitive-constructor-types': ERROR,
-    'flowtype/require-parameter-type': [
-      WARNING,
-      { excludeArrowFunctions: true }
-    ],
+    // 'flowtype/require-parameter-type': [
+      // WARNING,
+      // { excludeArrowFunctions: true }
+    // ],
     'flowtype/no-dupe-keys': ERROR,
     'flowtype/type-id-match': OFF,
     'flowtype/define-flow-type': ERROR,
