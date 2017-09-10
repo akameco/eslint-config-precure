@@ -22,7 +22,7 @@
     "flowtype"
   ],
   "scripts": {
-    "prettier": "prettier --single-quote index.js",
+    "prettier": "prettier --write index.js",
     "eslint": "eslint -c ./index.js index.js",
     "test": "npm run eslint"
   },

@@ -1,7 +1,7 @@
-'use strict';
-const OFF = 0;
-const WARNING = 1;
-const ERROR = 2;
+'use strict'
+const OFF = 0
+const WARNING = 1
+const ERROR = 2
 
 module.exports = {
   parser: 'babel-eslint',
@@ -34,8 +34,8 @@ module.exports = {
   rules: {
     // prettier
     // 'prettier/prettier': [
-      // ERROR,
-      // { trailingComma: 'es5', singleQuote: true, semi: false }
+    // ERROR,
+    // { trailingComma: 'es5', singleQuote: true, semi: false }
     // ],
     // rules
     'no-var': ERROR,
@@ -261,8 +261,8 @@ module.exports = {
     // flow https://github.com/gajus/eslint-plugin-flowtype
     // 'flowtype/no-primitive-constructor-types': ERROR,
     // 'flowtype/require-parameter-type': [
-      // WARNING,
-      // { excludeArrowFunctions: true }
+    // WARNING,
+    // { excludeArrowFunctions: true }
     // ],
     'flowtype/no-dupe-keys': ERROR,
     'flowtype/type-id-match': OFF,
@@ -279,4 +279,4 @@ module.exports = {
     'import/no-commonjs': OFF,
     'import/order': ERROR
   }
-};
+}
