@@ -1,6 +1,6 @@
 // @flow
 
 module.exports = {
-  exnteds: [require('./index'), require('./jest')],
+  extends: ['./index.js', './jest.js', './flowtype.js'],
   rules: {}
 }
