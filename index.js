@@ -1,4 +1,5 @@
-'use strict'
+// @flow
+
 const OFF = 0
 const WARNING = 1
 const ERROR = 2
@@ -9,7 +10,6 @@ module.exports = {
     ecmaVersion: 7,
     sourceType: 'module',
     ecmaFeatures: {
-      jsx: true,
       experimentalObjectRestSpread: true
     }
   },
@@ -18,19 +18,8 @@ module.exports = {
     node: true,
     es6: true
   },
-  extends: [
-    'plugin:react/recommended',
-    'plugin:import/errors',
-    'prettier',
-    'prettier/flowtype',
-    'prettier/react'
-  ],
-  plugins: ['prettier', 'flowtype', 'react', 'import'],
-  settings: {
-    flowtype: {
-      onlyFilesWithFlowAnnotation: true
-    }
-  },
+  extends: ['plugin:import/errors', 'prettier', './flowtype.js'],
+  plugins: ['prettier', 'flowtype', 'import'],
   rules: {
     // prettier
     // 'prettier/prettier': [
@@ -251,27 +240,8 @@ module.exports = {
     'template-curly-spacing': ERROR,
     // 'yield-star-spacing': [ERROR, 'both']
 
-    // react
-    // 'react/prefer-stateless-function': ERROR,
-    'react/jsx-boolean-value': ERROR,
-    'react/jsx-filename-extension': [ERROR, { extensions: ['.js'] }],
-    'react/jsx-handler-names': ERROR,
-    'react/prefer-es6-class': [ERROR, 'always'],
-
-    // flow https://github.com/gajus/eslint-plugin-flowtype
-    // 'flowtype/no-primitive-constructor-types': ERROR,
-    // 'flowtype/require-parameter-type': [
-    // WARNING,
-    // { excludeArrowFunctions: true }
-    // ],
-    'flowtype/no-dupe-keys': ERROR,
-    'flowtype/type-id-match': OFF,
-    'flowtype/define-flow-type': ERROR,
-    'flowtype/no-types-missing-file-annotation': ERROR,
-    'flowtype/use-flow-type': WARNING,
-
     // import
-    'import/newline-after-import': ERROR,
+    // 'import/ewline-after-import': ERROR,
     'import/imports-first': ERROR,
     'import/prefer-default-export': OFF,
     'import/no-extraneous-dependencies': ERROR,
