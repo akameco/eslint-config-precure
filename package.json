@@ -15,7 +15,8 @@
   "files": ["index.js", "jest.js"],
   "keywords": ["eslint", "prettier", "react", "flowtype", "jest"],
   "scripts": {
-    "precommit": "lint-staged",
+    "precommit": "lint-staged && npm run flow",
+    "flow": "flow",
     "fmt": "prettier --write '*.{js,json}'",
     "lint": "eslint -c ./index.js index.js",
     "test": "npm run lint"
@@ -36,6 +37,7 @@
   },
   "devDependencies": {
     "eslint": "^4.9.0",
+    "flow-bin": "^0.57.3",
     "husky": "^0.14.3",
     "lint-staged": "^4.3.0",
     "prettier": "^1.7.4"
