@@ -12,31 +12,32 @@
   "engines": {
     "node": ">=4"
   },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "eslint",
-    "prettier",
-    "react",
-    "flowtype"
-  ],
+  "files": ["index.js", "jest.js"],
+  "keywords": ["eslint", "prettier", "react", "flowtype", "jest"],
   "scripts": {
+    "precommit": "lint-staged",
     "fmt": "prettier --write '*.{js,json}'",
-    "eslint": "eslint -c ./index.js index.js",
-    "test": "npm run eslint"
+    "lint": "eslint -c ./index.js index.js",
+    "test": "npm run lint"
+  },
+  "lint-staged": {
+    "*.js": ["fmt", "lint", "git add"],
+    "*.json": ["fmt", "git add"]
   },
   "dependencies": {
     "babel-eslint": "^8.0.1",
     "eslint-config-prettier": "^2.6.0",
     "eslint-plugin-flowtype": "^2.39.1",
     "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jest": "^21.2.0",
     "eslint-plugin-prettier": "^2.3.1",
     "eslint-plugin-react": "^7.4.0",
     "eslint-plugin-unicorn": "^2.1.2"
   },
   "devDependencies": {
     "eslint": "^4.9.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^4.3.0",
     "prettier": "^1.7.4"
   },
   "peerDependencies": {
