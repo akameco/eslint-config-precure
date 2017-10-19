@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-precure",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "description": "ESLint shareable config for precure",
   "license": "MIT",
   "repository": "akameco/eslint-config-precure",
@@ -12,8 +12,15 @@
   "engines": {
     "node": ">=4"
   },
-  "files": ["index.js"],
-  "keywords": ["eslint", "prettier", "react", "flowtype"],
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "eslint",
+    "prettier",
+    "react",
+    "flowtype"
+  ],
   "scripts": {
     "fmt": "prettier --write '*.{js,json}'",
     "eslint": "eslint -c ./index.js index.js",
