@@ -13,7 +13,6 @@
     "node": ">=4"
   },
   "main": "index.js",
-  "files": ["index.js", "jest.js", "flowtype.js", "oss.js", "react.js"],
   "keywords": ["eslint", "prettier", "react", "flowtype", "jest"],
   "scripts": {
     "precommit": "lint-staged && npm run flow",

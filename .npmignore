@@ -1,7 +1,10 @@
 node_modules
 .editorconfig
 .gitignore
+.gitattributes
 .travis.yml
 CONTRIBUTING.md
 other
 yarn.lock
+.flowconfig
+examples
