@@ -54,7 +54,7 @@ module.exports = {
     'import/no-anonymous-default-export': 0,
     'import/no-absolute-path': 2,
     'import/no-deprecated': 1, // this is an in progress rule
-    'import/no-duplicates': 2,
+    'import/no-duplicates': 1, // import type {} に対応してない
     'import/no-dynamic-require': 1, // sometimes it can be handy, shouldn't break a build
     'import/no-internal-modules': 0,
     'import/no-mutable-exports': 2,
