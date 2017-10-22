@@ -34,8 +34,8 @@ module.exports = {
     'no-undef': 2,
     'no-undefined': 0,
 
-    // strict
-    strict: 2,
+    // strict, cjsでも書きたいときがあるが切り分けが難しいので無効
+    strict: 0,
 
     // CommonJS
     // うるさいだけ http://eslint.org/docs/rules/callback-return
