@@ -63,5 +63,6 @@ module.exports = {
     'import/no-webpack-loader-syntax': 2,
     'import/prefer-default-export': 1,
     'import/unambiguous': 0, // not sure I understand this rule well enough right now...
+    'import/exports-last': 1,
   },
 }
