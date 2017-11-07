@@ -11,7 +11,8 @@ module.exports = {
     'flowtype/use-flow-type': 1,
 
     // うーむ
-    'flowtype/no-mutable-array': 1,
+    // readonlyarrayは使いづらい
+    'flowtype/no-mutable-array': 0,
     'flowtype/no-unused-expressions': 0,
     'flowtype/no-weak-types': 1,
 
