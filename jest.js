@@ -6,6 +6,10 @@ module.exports = {
     'jest/no-focused-tests': 2,
     'jest/no-identical-title': 2,
     'jest/valid-expect': 2,
+    'jest/prefer-to-have-length': 2,
+    'jest/prefer-to-be-undefined': 0,
+    'jest/prefer-to-be-null': 0,
+    'jest/no-large-snapshots': 0,
   },
   env: {
     'jest/globals': true,
