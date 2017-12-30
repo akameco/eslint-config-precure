@@ -17,7 +17,7 @@
   "scripts": {
     "precommit": "lint-staged && npm run flow",
     "flow": "flow",
-    "fmt": "prettier --write '*.{js,json}'",
+    "fmt": "prettier --write '*.{js,json,md}'",
     "lint": "eslint -c ./index.js index.js",
     "find-new-rules": "npm-run-all --parallel find-new-rules:*",
     "find-new-rules:jest": "eslint-find-rules --unused ./other/test/jest.js",
@@ -29,9 +29,10 @@
   },
   "lint-staged": {
     "*.js": ["fmt", "lint", "git add"],
-    "*.json": ["fmt", "git add"]
+    "*.{json,md}": ["fmt", "git add"]
   },
   "dependencies": {
+    "all-contributors-cli": "^4.10.1",
     "babel-eslint": "^8.1.2",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-flowtype": "^2.40.1",
