@@ -44,5 +44,8 @@ module.exports = {
     'spaced-comment': 0,
 
     'flowtype/sort-keys': 0,
+
+    // FlowFixMeの抑制。使わざる得ない場面が多いあるので許可する
+    'flowtype/no-flow-fix-me-comments': 0,
   },
 }
