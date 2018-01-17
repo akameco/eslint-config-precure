@@ -30,7 +30,7 @@
     "find-new-rules:flow": "eslint-find-rules --unused ./other/test/flow.js",
     "find-new-rules:main": "eslint-find-rules --unused ./index.js",
     "eslint-check": "eslint --print-config .eslintrc | eslint-config-prettier-check",
-    "test": "npm run lint"
+    "test": "npm run lint && npm run find-new-rules"
   },
   "lint-staged": {
     "*.js": [
