@@ -13,7 +13,13 @@
     "node": ">=6"
   },
   "main": "index.js",
-  "keywords": ["eslint", "prettier", "react", "flowtype", "jest"],
+  "keywords": [
+    "eslint",
+    "prettier",
+    "react",
+    "flowtype",
+    "jest"
+  ],
   "scripts": {
     "precommit": "lint-staged && npm run flow",
     "flow": "flow",
@@ -23,13 +29,19 @@
     "find-new-rules:jest": "eslint-find-rules --unused ./other/test/jest.js",
     "find-new-rules:flow": "eslint-find-rules --unused ./other/test/flow.js",
     "find-new-rules:main": "eslint-find-rules --unused ./index.js",
-    "eslint-check":
-      "eslint --print-config .eslintrc | eslint-config-prettier-check",
+    "eslint-check": "eslint --print-config .eslintrc | eslint-config-prettier-check",
     "test": "npm run lint"
   },
   "lint-staged": {
-    "*.js": ["fmt", "lint", "git add"],
-    "*.{json,md}": ["fmt", "git add"]
+    "*.js": [
+      "fmt",
+      "lint",
+      "git add"
+    ],
+    "*.{json,md}": [
+      "fmt",
+      "git add"
+    ]
   },
   "dependencies": {
     "all-contributors-cli": "^4.10.1",
@@ -37,8 +49,8 @@
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-flowtype": "^2.41.0",
     "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jest": "^21.5.0",
-    "eslint-plugin-prettier": "^2.4.0",
+    "eslint-plugin-jest": "^21.6.2",
+    "eslint-plugin-prettier": "^2.5.0",
     "eslint-plugin-react": "^7.5.1",
     "eslint-plugin-unicorn": "^3.0.1"
   },
@@ -49,7 +61,7 @@
     "husky": "^0.14.3",
     "lint-staged": "^6.0.0",
     "npm-run-all": "^4.1.2",
-    "prettier": "^1.9.2"
+    "prettier": "^1.10.2"
   },
   "peerDependencies": {
     "eslint": ">=3.0.0"

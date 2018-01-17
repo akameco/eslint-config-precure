@@ -10,6 +10,7 @@ module.exports = {
     'jest/prefer-to-be-undefined': 0,
     'jest/prefer-to-be-null': 0,
     'jest/no-large-snapshots': 0,
+    'jest/prefer-expect-assertions': 0,
   },
   env: {
     'jest/globals': true,
