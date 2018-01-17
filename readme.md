@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/akameco/eslint-config-precure.svg?branch=master)](https://travis-ci.org/akameco/eslint-config-precure)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![npm version](https://badge.fury.io/js/eslint-config-precure.svg)](https://badge.fury.io/js/eslint-config-precure)
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 > ESLint shareable config for me
