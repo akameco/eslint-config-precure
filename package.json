@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-precure",
-  "version": "0.13.0",
+  "version": "0.0.0-development",
   "description": "ESLint shareable config for precure",
   "license": "MIT",
   "repository": "akameco/eslint-config-precure",
@@ -30,7 +30,9 @@
     "find-new-rules:flow": "eslint-find-rules --unused ./other/test/flow.js",
     "find-new-rules:main": "eslint-find-rules --unused ./index.js",
     "eslint-check": "eslint --print-config .eslintrc | eslint-config-prettier-check",
-    "test": "npm run lint && npm run find-new-rules"
+    "test": "npm run lint && npm run find-new-rules",
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release"
   },
   "lint-staged": {
     "*.js": [
@@ -61,7 +63,9 @@
     "husky": "^0.14.3",
     "lint-staged": "^6.0.0",
     "npm-run-all": "^4.1.2",
-    "prettier": "^1.10.2"
+    "prettier": "^1.10.2",
+    "travis-deploy-once": "^4.3.1",
+    "semantic-release": "^12.2.2"
   },
   "peerDependencies": {
     "eslint": ">=3.0.0"
