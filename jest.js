@@ -11,6 +11,7 @@ module.exports = {
     'jest/prefer-to-be-null': 0,
     'jest/no-large-snapshots': 0,
     'jest/prefer-expect-assertions': 0,
+    'jest/valid-expect-in-promise': 0,
   },
   env: {
     'jest/globals': true,
