@@ -19,6 +19,7 @@ module.exports = {
     './possible-errors.js',
     './stylistic.js',
     './import/index.js',
+    './unicorn.js',
     'prettier',
   ],
   plugins: ['prettier'],
