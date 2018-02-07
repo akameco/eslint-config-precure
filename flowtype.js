@@ -47,5 +47,8 @@ module.exports = {
 
     // FlowFixMeの抑制。使わざる得ない場面が多いあるので許可する
     'flowtype/no-flow-fix-me-comments': 0,
+
+    // {| |} の強制だが、流石にうるわい
+    'flowtype/require-exact-type': 0,
   },
 }
