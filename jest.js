@@ -12,6 +12,11 @@ module.exports = {
     'jest/no-large-snapshots': 0,
     'jest/prefer-expect-assertions': 0,
     'jest/valid-expect-in-promise': 0,
+    'jest/consistent-test-it': 2,
+    'jest/no-test-prefixes': 2,
+    'jest/valid-describe': 2,
+    'jest/lowercase-name': 0, // 日本人だぞ！
+    'jest/no-hooks': 1,
   },
   env: {
     'jest/globals': true,

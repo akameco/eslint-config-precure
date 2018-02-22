@@ -1,5 +1,4 @@
 // @flow
-
 // See https://github.com/gajus/eslint-plugin-flowtype
 
 module.exports = {
@@ -14,6 +13,8 @@ module.exports = {
     // readonlyarrayは使いづらい
     'flowtype/no-mutable-array': 0,
     'flowtype/no-unused-expressions': 0,
+
+    // weak-typesに警告はほしいが、エラーである必要はない
     'flowtype/no-weak-types': 1,
 
     // 型が足りないときはflow自身が警告を出す
@@ -50,5 +51,17 @@ module.exports = {
 
     // {| |} の強制だが、流石にうるわい
     'flowtype/require-exact-type': 0,
+
+    // *は制限しない
+    'flowtype/no-existential-type': 0,
+
+    // 型定義は常に一番上。判断は保留でwarningにしておく。
+    'flowtype/require-types-at-top': 1,
+
+    // 悩みどころだが、型定義ファイルからならimport type {}の方がよい
+    'flowtype/type-import-style': 0,
+
+    // importは@flowの後に空行はいらないが、exportするなら空行がほしい
+    'flowtype/newline-after-flow-annotation': 0,
   },
 }

@@ -21,7 +21,7 @@
     "jest"
   ],
   "scripts": {
-    "precommit": "lint-staged && npm run flow",
+    "precommit": "npm run flow && lint-staged",
     "flow": "flow",
     "fmt": "prettier --write '*.{js,json,md}'",
     "lint": "eslint -c ./index.js index.js",
@@ -35,33 +35,28 @@
     "semantic-release": "semantic-release"
   },
   "lint-staged": {
-    "*.js": [
-      "fmt",
-      "lint",
-      "git add"
-    ],
-    "*.{json,md}": [
-      "fmt",
+    "*.{js,json,md}": [
+      "prettier --write",
       "git add"
     ]
   },
   "dependencies": {
-    "babel-eslint": "^8.2.1",
+    "babel-eslint": "^8.2.2",
     "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-flowtype": "^2.42.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jest": "^21.7.0",
+    "eslint-plugin-flowtype": "^2.46.1",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jest": "^21.12.2",
     "eslint-plugin-prettier": "^2.6.0",
-    "eslint-plugin-react": "^7.6.1",
-    "eslint-plugin-unicorn": "^3.0.1"
+    "eslint-plugin-react": "^7.7.0",
+    "eslint-plugin-unicorn": "^4.0.2"
   },
   "devDependencies": {
     "all-contributors-cli": "^4.10.1",
-    "eslint": "^4.17.0",
-    "eslint-find-rules": "^3.1.1",
-    "flow-bin": "^0.65.0",
+    "eslint": "^4.18.1",
+    "eslint-find-rules": "^3.2.0",
+    "flow-bin": "^0.66.0",
     "husky": "^0.14.3",
-    "lint-staged": "^6.1.0",
+    "lint-staged": "^7.0.0",
     "npm-run-all": "^4.1.2",
     "prettier": "^1.10.2",
     "semantic-release": "^12.4.1",

@@ -65,5 +65,10 @@ module.exports = {
     'import/prefer-default-export': 0,
     'import/unambiguous': 0, // not sure I understand this rule well enough right now...
     'import/exports-last': 1,
+
+    'import/no-useless-path-segments': 2,
+    'import/no-self-import': 2,
+    'import/no-default-export': 0, // export defaultは使う
+    'import/group-exports': 0, // eslint4.18.1だと壊れる
   },
 }
