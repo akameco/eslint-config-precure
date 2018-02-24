@@ -16,7 +16,7 @@ module.exports = {
     'jest/no-test-prefixes': 2,
     'jest/valid-describe': 2,
     'jest/lowercase-name': 0, // 日本人だぞ！
-    'jest/no-hooks': 1,
+    'jest/no-hooks': 0, // やはりうるさかった
   },
   env: {
     'jest/globals': true,
