@@ -63,5 +63,8 @@ module.exports = {
 
     // importは@flowの後に空行はいらないが、exportするなら空行がほしい
     'flowtype/newline-after-flow-annotation': 0,
+
+    // 何故かエラーが出る。いずれ有効にする
+    'flowtype/require-types-at-top': 0,
   },
 }

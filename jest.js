@@ -17,6 +17,7 @@ module.exports = {
     'jest/valid-describe': 2,
     'jest/lowercase-name': 0, // 日本人だぞ！
     'jest/no-hooks': 0, // やはりうるさかった
+    'jest/no-jest-import': 2,
   },
   env: {
     'jest/globals': true,
