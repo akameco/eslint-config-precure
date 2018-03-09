@@ -54,13 +54,13 @@
     "all-contributors-cli": "^4.11.0",
     "eslint": "^4.18.2",
     "eslint-find-rules": "^3.2.1",
-    "flow-bin": "^0.66.0",
+    "flow-bin": "^0.67.1",
     "husky": "^0.14.3",
     "lint-staged": "^7.0.0",
     "npm-run-all": "^4.1.2",
     "prettier": "^1.11.1",
-    "semantic-release": "^12.4.1",
-    "travis-deploy-once": "^4.3.4"
+    "semantic-release": "^15.0.2",
+    "travis-deploy-once": "^4.4.0"
   },
   "peerDependencies": {
     "eslint": ">=3.0.0"
