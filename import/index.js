@@ -72,5 +72,6 @@ module.exports = {
     'import/group-exports': 0, // eslint4.18.1だと壊れる
     'import/no-useless-path-segments': 0, // 有効にするとエラーが起きる。いずれ有効にする
     'import/no-self-import': 0, // 有効にするとエラーが起きる。いずれ有効にする
+    'import/no-cycle': 0, // flowを使っているなら必要性が低い。また計算コストがかかる
   },
 }
