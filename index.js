@@ -195,5 +195,6 @@ module.exports = {
     'require-yield': 2,
     'symbol-description': 2,
     'template-curly-spacing': 0,
+    'no-process-exit': 0, // use unicorn/no-process-exit
   },
 }
