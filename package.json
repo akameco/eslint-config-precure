@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-precure",
-  "version": "2.7.0",
+  "version": "2.8.0",
   "description": "ESLint shareable config for precure",
   "license": "MIT",
   "repository": "akameco/eslint-config-precure",
@@ -21,8 +21,7 @@
     "jest"
   ],
   "scripts": {
-    "precommit": "npm run flow && lint-staged",
-    "flow": "flow",
+    "precommit": "yarn run flow && lint-staged",
     "fmt": "prettier --write '*.{js,json,md}'",
     "lint": "eslint -c ./index.js index.js",
     "find-new-rules": "npm-run-all --parallel find-new-rules:*",
@@ -30,7 +29,7 @@
     "find-new-rules:flow": "eslint-find-rules --unused ./other/test/flow.js",
     "find-new-rules:main": "eslint-find-rules --unused ./index.js",
     "eslint-check": "eslint --print-config .eslintrc | eslint-config-prettier-check",
-    "test": "npm run lint && npm run find-new-rules",
+    "test": "yarn lint && yarn run find-new-rules",
     "travis-deploy-once": "travis-deploy-once",
     "semantic-release": "semantic-release"
   },
