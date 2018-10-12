@@ -21,7 +21,6 @@
     "jest"
   ],
   "scripts": {
-    "precommit": "yarn run flow && lint-staged",
     "fmt": "prettier --write '*.{js,json,md}'",
     "lint": "eslint -c ./index.js index.js",
     "find-new-rules": "npm-run-all --parallel find-new-rules:*",
@@ -63,5 +62,10 @@
   },
   "peerDependencies": {
     "eslint": ">=3.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn run flow && lint-staged"
+    }
   }
 }
