@@ -196,5 +196,10 @@ module.exports = {
     'symbol-description': 2,
     'template-curly-spacing': 0,
     'no-process-exit': 0, // use unicorn/no-process-exit
+    'max-classes-per-file': [2, 1], // 1つのファイルに1つのクラス
+    'max-lines-per-function': 2, // 1つの関数は50行以内
+    'no-async-promise-executor': 2,
+    'no-misleading-character-class': 2,
+    'require-atomic-updates': 2,
   },
 }

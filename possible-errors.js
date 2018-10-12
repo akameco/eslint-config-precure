@@ -29,5 +29,6 @@ module.exports = {
     'no-const-assign': 2,
     'no-this-before-super': 2,
     'no-dupe-class-members': 2,
+    'prefer-object-spread': 2,
   },
 }
