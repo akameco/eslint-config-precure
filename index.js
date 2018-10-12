@@ -201,5 +201,6 @@ module.exports = {
     'no-async-promise-executor': 2,
     'no-misleading-character-class': 2,
     'require-atomic-updates': 2,
+    'require-unicode-regexp': 2,
   },
 }

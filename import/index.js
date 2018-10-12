@@ -72,5 +72,8 @@ module.exports = {
     'import/no-useless-path-segments': 0, // 有効にするとエラーが起きる。いずれ有効にする
     'import/no-self-import': 0, // 有効にするとエラーが起きる。いずれ有効にする
     'import/no-cycle': 0, // flowを使っているなら必要性が低い。また計算コストがかかる
+    'import/dynamic-import-chunkname': 0, // prettier案件
+    // TODO: 判断が難しい。一端有効にして後で考える
+    'import/no-relative-parent-imports': 1,
   },
 }

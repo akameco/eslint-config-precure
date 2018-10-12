@@ -18,6 +18,13 @@ module.exports = {
     'jest/lowercase-name': 0, // 日本人だぞ！
     'jest/no-hooks': 0, // やはりうるさかった
     'jest/no-jest-import': 2,
+    'jest/prefer-strict-equal': 2,
+    'jest/expect-expect': 2, // TODO: 一旦入れて様子見
+    'jest/no-alias-methods': 2,
+    'jest/no-test-return-statement': 2,
+    'jest/no-jasmine-globals': 2,
+    'jest/require-tothrow-message': 2,
+    'jest/prefer-inline-snapshots': 2,
   },
   env: {
     'jest/globals': true,

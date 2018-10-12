@@ -66,5 +66,9 @@ module.exports = {
 
     // 何故かエラーが出る。いずれ有効にする
     'flowtype/require-types-at-top': 0,
+
+    // Type[]の代わりに、常にArray<Type>を使う.
+    'flowtype/array-style-simple-type': 2,
+    'flowtype/array-style-complex-type': 2,
   },
 }
