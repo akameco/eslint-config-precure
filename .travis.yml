@@ -1,5 +1,6 @@
 language: node_js
 node_js:
+  - '10'
   - '8'
   - '6'
 cache:
@@ -8,8 +9,6 @@ cache:
     - ".eslintcache"
 install:
   - yarn install --ignore-engines
-after_success:
-  - npm run travis-deploy-once "npm run semantic-release"
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
