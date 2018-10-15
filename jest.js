@@ -25,6 +25,7 @@ module.exports = {
     'jest/no-jasmine-globals': 2,
     'jest/require-tothrow-message': 2,
     'jest/prefer-inline-snapshots': 0,
+    'jest/prefer-to-contain': 2,
   },
   env: {
     'jest/globals': true,
