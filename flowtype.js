@@ -70,5 +70,6 @@ module.exports = {
     // Type[]の代わりに、常にArray<Type>を使う.
     'flowtype/array-style-simple-type': 2,
     'flowtype/array-style-complex-type': 2,
+    'flowtype/require-compound-type-alias': 2,
   },
 }

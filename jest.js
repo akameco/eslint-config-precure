@@ -26,6 +26,9 @@ module.exports = {
     'jest/require-tothrow-message': 2,
     'jest/prefer-inline-snapshots': 0,
     'jest/prefer-to-contain': 2,
+    'jest/no-test-callback': 2,
+    'jest/no-truthy-falsy': 2,
+    'jest/prefer-spy-on': 2,
   },
   env: {
     'jest/globals': true,
