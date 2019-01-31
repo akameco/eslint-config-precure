@@ -9,7 +9,6 @@ cache:
 install:
   - yarn install --ignore-engines
 branches:
-  except:
-    - /^v\d+\.\d+\.\d+$/
+  only: master
 notifications:
   email: false
