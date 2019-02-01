@@ -1,5 +1,10 @@
 {
-  "extends": [
-    "config:base"
-  ]
+  "extends": ["config:base", ":ignoreModulesAndTests", ":timezone(Asia/Tokyo)"],
+  "npm": {
+    "extends": [
+      ":automergePatch",
+      ":separatePatchReleases",
+      "helpers:disableTypesNodeMajor"
+    ]
+  }
 }
