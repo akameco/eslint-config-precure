@@ -27,7 +27,7 @@
     "find-new-rules": "npm-run-all --parallel find-new-rules:*",
     "find-new-rules:jest": "eslint-find-rules --unused ./other/test/jest.js",
     "find-new-rules:flow": "eslint-find-rules --unused ./other/test/flow.js",
-    "find-new-rules:ts": "eslint-find-rules --unused ./other/test/ts.js",
+    "disable:find-new-rules:ts": "eslint-find-rules --unused ./other/test/ts.js",
     "find-new-rules:main": "eslint-find-rules --unused ./index.js",
     "eslint-check": "eslint --print-config .eslintrc | eslint-config-prettier-check",
     "test": "yarn lint && yarn run find-new-rules"
