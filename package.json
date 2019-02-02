@@ -18,7 +18,8 @@
     "prettier",
     "react",
     "flowtype",
-    "jest"
+    "jest",
+    "typescript"
   ],
   "scripts": {
     "fmt": "prettier --write '*.{js,json,md}'",
@@ -37,6 +38,7 @@
     ]
   },
   "dependencies": {
+    "@typescript-eslint/parser": "^1.2.0",
     "babel-eslint": "^10.0.1",
     "eslint-config-prettier": "^4.0.0",
     "eslint-plugin-flowtype": "^3.2.1",
