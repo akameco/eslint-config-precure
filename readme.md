@@ -7,9 +7,13 @@
 
 > ESLint shareable config for me
 
-Optimized for `prettier`.
+## Features
 
-`react`, `flowtype`, `prettier`.
+- prettier
+- react
+- react
+- flowtype
+- TypeScript
 
 ## Install
 
