@@ -29,6 +29,7 @@ module.exports = {
     'jest/no-test-callback': 2,
     'jest/no-truthy-falsy': 2,
     'jest/prefer-spy-on': 2,
+    'jest/prefer-todo': 2,
   },
   env: {
     'jest/globals': true,

@@ -68,6 +68,7 @@ module.exports = {
     'import/no-useless-path-segments': 2,
     'import/no-self-import': 2,
     'import/no-default-export': 0, // export defaultは使う
+    'import/no-named-export': 0, // export constは使う
     'import/group-exports': 0, // eslint4.18.1だと壊れる
     'import/no-useless-path-segments': 0, // 有効にするとエラーが起きる。いずれ有効にする
     'import/no-self-import': 0, // 有効にするとエラーが起きる。いずれ有効にする
