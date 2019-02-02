@@ -31,7 +31,15 @@ $ npm install --save-dev eslint eslint-config-precure
 }
 ```
 
-## Jest
+### TypeScript
+
+```json
+{
+  "extends": ["precure", "precure/typescript"]
+}
+```
+
+### Jest
 
 ```json
 {
