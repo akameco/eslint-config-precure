@@ -7,7 +7,7 @@
   "author": {
     "name": "akameco",
     "email": "akameco.t@gmail.com",
-    "url": "akameco.github.io"
+    "url": "https://akameco.github.io"
   },
   "engines": {
     "node": ">=8"
@@ -27,6 +27,7 @@
     "find-new-rules": "npm-run-all --parallel find-new-rules:*",
     "find-new-rules:jest": "eslint-find-rules --unused ./other/test/jest.js",
     "find-new-rules:flow": "eslint-find-rules --unused ./other/test/flow.js",
+    "find-new-rules:ts": "eslint-find-rules --unused ./other/test/ts.js",
     "find-new-rules:main": "eslint-find-rules --unused ./index.js",
     "eslint-check": "eslint --print-config .eslintrc | eslint-config-prettier-check",
     "test": "yarn lint && yarn run find-new-rules"
@@ -38,6 +39,7 @@
     ]
   },
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.2.0",
     "@typescript-eslint/parser": "^1.2.0",
     "babel-eslint": "^10.0.1",
     "eslint-config-prettier": "^4.0.0",
@@ -59,7 +61,8 @@
     "prettier": "1.16.3"
   },
   "peerDependencies": {
-    "eslint": ">=3.0.0"
+    "eslint": ">=3.0.0",
+    "typescript": "^3.3.1"
   },
   "husky": {
     "hooks": {
