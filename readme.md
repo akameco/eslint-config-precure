@@ -25,9 +25,17 @@ $ npm install --save-dev eslint eslint-config-precure
 
 .eslintrc
 
-```
+```json
 {
   "extends": "precure"
+}
+```
+
+## Jest
+
+```json
+{
+  "extends": ["precure", "precure/jest"]
 }
 ```
 
@@ -35,7 +43,7 @@ $ npm install --save-dev eslint eslint-config-precure
 
 `flow` && `jest`
 
-```
+```json
 {
   "extends": ["precure/oss"]
 }
