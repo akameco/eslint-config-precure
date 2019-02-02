@@ -5,6 +5,9 @@ module.exports = {
   parserOptions: {
     // バージョンエラーを抑制
     loggerFn: false,
+    sourceType: 'module',
+    jsx: true,
+    project: 'tsconfig.json',
   },
   settings: {
     'import/resolver': {
