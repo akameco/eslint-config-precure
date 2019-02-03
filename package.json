@@ -48,7 +48,8 @@
     "eslint-plugin-jest": "^22.1.3",
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.12.4",
-    "eslint-plugin-unicorn": "^7.0.0"
+    "eslint-plugin-unicorn": "^7.0.0",
+    "ptils": "^0.3.0"
   },
   "devDependencies": {
     "all-contributors-cli": "5.11.0",
