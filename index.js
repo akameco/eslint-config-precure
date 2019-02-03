@@ -18,7 +18,7 @@ module.exports = {
     './best-practices.js',
     './possible-errors.js',
     './stylistic.js',
-    './import/index.js',
+    './import.js',
     './unicorn.js',
     'prettier',
   ],
