@@ -51,13 +51,16 @@ $ npm install --save-dev eslint eslint-config-precure
 }
 ```
 
-### OSS:
+## Auto Config
 
-`flow` && `jest`
+if you use `typescript`, enable [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)
+if you use `jest`, enable [eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest)
+if you use `react`, enable [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)
+if you use `flow-bin`, enable [eslint-plugin-flowtype](https://github.com/gajus/eslint-plugin-flowtype)
 
 ```json
 {
-  "extends": ["precure/oss"]
+  "extends": "precure/auto"
 }
 ```
 
