@@ -9,7 +9,9 @@ module.exports = {
     ecmaFeatures: { jsx: true },
   },
   settings: {
-    version: 'detect',
+    react: {
+      version: 'detect',
+    },
   },
   plugins: ['react'],
   rules: {
