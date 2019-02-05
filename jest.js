@@ -29,7 +29,8 @@ module.exports = {
     'jest/no-test-callback': 2,
     'jest/no-truthy-falsy': 2,
     'jest/prefer-spy-on': 2,
-    'jest/prefer-todo': 2,
+    // よくわからない挙動をするのでOFF
+    'jest/prefer-todo': 0,
   },
   env: {
     'jest/globals': true,
