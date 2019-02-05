@@ -8,6 +8,9 @@ module.exports = {
   parserOptions: {
     ecmaFeatures: { jsx: true },
   },
+  settings: {
+    version: 'detect',
+  },
   plugins: ['react'],
   rules: {
     // 最適化すれば変わらないため無効。本質ではない。
