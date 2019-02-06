@@ -18,9 +18,7 @@ module.exports = {
     // 最適化すれば変わらないため無効。本質ではない。
     // 'react/prefer-stateless-function': 2,
     'react/jsx-boolean-value': 2,
-    // tsxが有効にならないので無効
-    'react/jsx-filename-extension': 0,
-    // 'react/jsx-filename-extension': [2, { extensions: ['.js', '.tsx'] }],
+    'react/jsx-filename-extension': [2, { extensions: ['.js', '.tsx'] }],
     'react/jsx-handler-names': 2,
     'react/prefer-es6-class': [2, 'always'],
   },
