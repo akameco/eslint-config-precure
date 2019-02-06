@@ -104,17 +104,19 @@ module.exports = {
     '@typescript-eslint/no-type-alias': 'off',
 
     'no-unused-vars': 'off',
-    '@typescript-eslint/no-unused-vars': [
-      'error',
-      {
-        vars: 'all',
-        args: 'after-used',
-        ignoreRestSiblings: true,
-        argsIgnorePattern: '^_$',
-        caughtErrors: 'all',
-        caughtErrorsIgnorePattern: '^_$',
-      },
-    ],
+    // TODO: ジェネリックで使用される型には効かないの修正されるまでOFF
+    '@typescript-eslint/no-unused-vars': 'off',
+    // '@typescript-eslint/no-unused-vars': [
+    // 'error',
+    // {
+    // vars: 'all',
+    // args: 'after-used',
+    // ignoreRestSiblings: true,
+    // argsIgnorePattern: '^_$',
+    // caughtErrors: 'all',
+    // caughtErrorsIgnorePattern: '^_$',
+    // },
+    // ],
     '@typescript-eslint/no-var-requires': 'error',
     // どちらかに統一した方が望ましい。コミュニティ的には、interfaceがメジャーなので従う。
     '@typescript-eslint/prefer-interface': 'error',
