@@ -62,10 +62,12 @@ module.exports = {
       { properties: 'always', ignoreDestructuring: false },
     ],
     '@typescript-eslint/class-name-casing': 'error',
-    '@typescript-eslint/explicit-function-return-type': [
-      'error',
-      { allowExpressions: true },
-    ],
+    // '@typescript-eslint/explicit-function-return-type': [
+    // 'error',
+    // { allowExpressions: true },
+    // ],
+    // 有効にしたいが、tsxとの組み合わせがよくないので一旦警告に留める
+    '@typescript-eslint/explicit-function-return-type': 'warn',
     // '@typescript-eslint/explicit-function-return-type': '',
     // すべてがpublicであるべき
     '@typescript-eslint/explicit-member-accessibility': 'off',
