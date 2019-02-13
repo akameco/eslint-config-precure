@@ -74,7 +74,7 @@ Thanks goes to these wonderful people
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-| [<img src="https://avatars2.githubusercontent.com/u/4002137?v=4" width="100px;"/><br /><sub><b>akameco</b></sub>](http://akameco.github.io)<br />[💻](https://github.com/akameco/eslint-config-precure/commits?author=akameco "Code") [📖](https://github.com/akameco/eslint-config-precure/commits?author=akameco "Documentation") [⚠️](https://github.com/akameco/eslint-config-precure/commits?author=akameco "Tests") [🚇](#infra-akameco "Infrastructure (Hosting, Build-Tools, etc)") | [<img src="https://avatars3.githubusercontent.com/u/38746192?v=4" width="100px;"/><br /><sub><b>bsky</b></sub>](https://bsky.moe)<br />[💻](https://github.com/akameco/eslint-config-precure/commits?author=imbsky "Code") |
+| [<img src="https://avatars2.githubusercontent.com/u/4002137?v=4" width="100px;" alt="akameco"/><br /><sub><b>akameco</b></sub>](http://akameco.github.io)<br />[💻](https://github.com/akameco/eslint-config-precure/commits?author=akameco "Code") [📖](https://github.com/akameco/eslint-config-precure/commits?author=akameco "Documentation") [⚠️](https://github.com/akameco/eslint-config-precure/commits?author=akameco "Tests") [🚇](#infra-akameco "Infrastructure (Hosting, Build-Tools, etc)") | [<img src="https://avatars3.githubusercontent.com/u/38746192?v=4" width="100px;" alt="bsky"/><br /><sub><b>bsky</b></sub>](https://bsky.moe)<br />[💻](https://github.com/akameco/eslint-config-precure/commits?author=imbsky "Code") |
 | :---: | :---: |
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
