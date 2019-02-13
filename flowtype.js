@@ -71,5 +71,6 @@ module.exports = {
     'flowtype/array-style-simple-type': 2,
     'flowtype/array-style-complex-type': 2,
     'flowtype/require-compound-type-alias': 2,
+    'flowtype/no-mixed': 2,
   },
 }
