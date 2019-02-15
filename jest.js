@@ -31,6 +31,7 @@ module.exports = {
     'jest/prefer-spy-on': 2,
     // よくわからない挙動をするのでOFF
     'jest/prefer-todo': 0,
+    'jest/prefer-called-with': 2,
   },
   env: {
     'jest/globals': true,
