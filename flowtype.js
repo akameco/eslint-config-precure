@@ -28,7 +28,7 @@ module.exports = {
     'flowtype/require-parameter-type': 0,
 
     // Flow環境の場合、ほとんどの場合flow対象にする
-    'flowtype/require-valid-file-annotation': [1, 'always'],
+    'flowtype/require-valid-file-annotation': 0,
 
     // prettier
     'flowtype/boolean-style': 0,
