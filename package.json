@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-precure",
-  "version": "4.5.0",
+  "version": "4.6.0",
   "description": "ESLint shareable config for precure",
   "license": "MIT",
   "repository": "akameco/eslint-config-precure",
