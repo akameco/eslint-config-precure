@@ -4,7 +4,7 @@ module.exports = {
   plugins: ['@typescript-eslint'],
   parserOptions: {
     // バージョンエラーを抑制
-    loggerFn: false,
+    warnOnUnsupportedTypeScriptVersion: false,
     sourceType: 'module',
     jsx: true,
     project: 'tsconfig.json',
