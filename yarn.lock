@@ -2,6 +2,18 @@
 # yarn lockfile v1
 
 
+"@akameco/eslint-find-rules@^3.4.0":
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/@akameco/eslint-find-rules/-/eslint-find-rules-3.4.0.tgz#5042ad8eb8015a4c82807f577ad0cc321fb2b645"
+  integrity sha512-hx1t+f+bKsBbNel0Jc8Zf8tQzVZd2TTE0paobTj7UQzG087PN9dNoASyVhugzi3PmcAeIMn5TfL9j+SRZ9Lr8g==
+  dependencies:
+    cliui "^3.2.0"
+    eslint-rule-documentation "^1.0.0"
+    path-is-absolute "^1.0.1"
+    which "^1.2.8"
+    window-size "0.3.0"
+    yargs "^8.0.1"
+
 "@babel/code-frame@^7.0.0":
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.0.0.tgz#06e2ab19bdb535385559aabb5ba59729482800f8"
@@ -838,18 +850,6 @@ eslint-config-prettier@^4.0.0:
   integrity sha512-kWuiJxzV5NwOwZcpyozTzDT5KJhBw292bbYro9Is7BWnbNMg15Gmpluc1CTetiCatF8DRkNvgPAOaSyg+bYr3g==
   dependencies:
     get-stdin "^6.0.0"
-
-eslint-find-rules@3.3.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/eslint-find-rules/-/eslint-find-rules-3.3.1.tgz#46a86c2fc9e9be2b33235234e1820e1f045793a9"
-  integrity sha512-07lurNxr53r0EgiuPR0JuybU3p1eIOnmA4FBmVGCvi0OtMIUod7CIjOmwKmU5VYkSMDyC/nPT/iWVNU7V4uTlg==
-  dependencies:
-    cliui "^3.2.0"
-    eslint-rule-documentation "^1.0.0"
-    path-is-absolute "^1.0.1"
-    which "^1.2.8"
-    window-size "0.3.0"
-    yargs "^8.0.1"
 
 eslint-import-resolver-node@^0.3.2:
   version "0.3.2"

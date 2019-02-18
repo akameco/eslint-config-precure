@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-const getRuleFinder = require('eslint-find-rules')
+const getRuleFinder = require('@akameco/eslint-find-rules')
 const getRuleDocs = require('eslint-rule-docs')
 
 const input = process.argv.slice(2)

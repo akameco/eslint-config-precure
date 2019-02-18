@@ -29,7 +29,7 @@
     "find-new-rules:jest:link": "node ./other/find-rules ./other/test/jest.js",
     "find-new-rules:flow": "eslint-find-rules --unused ./other/test/flow.js",
     "find-new-rules:flow:link": "node ./other/find-rules ./other/test/jest.js",
-    "disable:find-new-rules:ts": "eslint-find-rules --unused ./other/test/ts.js",
+    "find-new-rules:ts": "eslint-find-rules --unused ./other/test/ts.js",
     "find-new-rules:main": "eslint-find-rules --unused ./index.js",
     "find-new-rules:main:link": "node ./other/find-rules index.js",
     "eslint-check": "eslint --print-config .eslintrc | eslint-config-prettier-check",
@@ -56,9 +56,9 @@
     "ptils": "^0.3.0"
   },
   "devDependencies": {
+    "@akameco/eslint-find-rules": "^3.4.0",
     "all-contributors-cli": "6.1.1",
     "eslint": "5.14.0",
-    "eslint-find-rules": "3.3.1",
     "eslint-rule-docs": "1.1.63",
     "flow-bin": "0.93.0",
     "husky": "1.3.1",
