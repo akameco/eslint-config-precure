@@ -56,7 +56,7 @@
     "ptils": "^0.3.0"
   },
   "devDependencies": {
-    "@akameco/eslint-find-rules": "^3.4.0",
+    "@akameco/eslint-find-rules": "3.4.0",
     "all-contributors-cli": "6.1.1",
     "eslint": "5.14.0",
     "eslint-rule-docs": "1.1.63",
