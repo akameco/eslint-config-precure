@@ -127,5 +127,8 @@ module.exports = {
 
     // prettierで修正される
     '@typescript-eslint/type-annotation-spacing': 'off',
+    '@typescript-eslint/promise-function-async': 'error',
+    '@typescript-eslint/no-require-imports': 'error',
+    '@typescript-eslint/no-for-in-array': 'error',
   },
 }
