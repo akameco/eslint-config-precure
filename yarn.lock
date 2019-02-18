@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@akameco/eslint-find-rules@^3.4.0":
+"@akameco/eslint-find-rules@3.4.0":
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/@akameco/eslint-find-rules/-/eslint-find-rules-3.4.0.tgz#5042ad8eb8015a4c82807f577ad0cc321fb2b645"
   integrity sha512-hx1t+f+bKsBbNel0Jc8Zf8tQzVZd2TTE0paobTj7UQzG087PN9dNoASyVhugzi3PmcAeIMn5TfL9j+SRZ9Lr8g==
