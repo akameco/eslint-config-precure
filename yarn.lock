@@ -934,7 +934,7 @@ eslint-plugin-unicorn@^7.1.0:
     lodash.upperfirst "^4.2.0"
     safe-regex "^2.0.1"
 
-eslint-rule-docs@^1.1.63:
+eslint-rule-docs@1.1.63:
   version "1.1.63"
   resolved "https://registry.yarnpkg.com/eslint-rule-docs/-/eslint-rule-docs-1.1.63.tgz#64902501a48194878fddc6bc03330126d3df2374"
   integrity sha512-6YS3LxCtheK0tvS88dQU77HrSvTx+dCNojMMui2ZyIBEtJaBo1KOnWzK3yY94YMjGiGoTkrusFxTXapy5+NaHQ==
