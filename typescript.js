@@ -56,6 +56,8 @@ module.exports = {
         },
       },
     ],
+    // 悩ましいがts-ignoreは使わざる得ない場合がある
+    '@typescript-eslint/ban-ts-ignore': 'off',
     camelcase: 'off',
     '@typescript-eslint/camelcase': [
       'error',
@@ -130,5 +132,8 @@ module.exports = {
     '@typescript-eslint/promise-function-async': 'error',
     '@typescript-eslint/no-require-imports': 'error',
     '@typescript-eslint/no-for-in-array': 'error',
+    '@typescript-eslint/require-array-sort-compare': 'error',
+    '@typescript-eslint/prefer-function-type': 'error',
+    '@typescript-eslint/no-unnecessary-qualifier': 'error',
   },
 }
