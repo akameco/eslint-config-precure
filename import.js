@@ -42,7 +42,24 @@ module.exports = {
     'import/no-unresolved': 2,
     'import/named': 2,
     'import/namespace': 2,
-    'import/no-extraneous-dependencies': 2,
+    'import/no-extraneous-dependencies': [
+      2,
+      {
+        devDependencies: [
+          'test/**',
+          'tests/**',
+          'spec/**',
+          '**/__tests__/**',
+          'test.js',
+          'test-*.js',
+          '**/*.test.js',
+          '**/webpack.config.js',
+          '**/webpack.config.*.js',
+          '**/rollup.config.js',
+        ],
+        optionalDependencies: false,
+      },
+    ],
     'import/no-named-as-default-member': 2,
 
     // ベストプラクティス
