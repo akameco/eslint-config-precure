@@ -30,5 +30,6 @@ module.exports = {
     'no-this-before-super': 2,
     'no-dupe-class-members': 2,
     'prefer-object-spread': 2,
+    'prefer-named-capture-group': 2,
   },
 }
