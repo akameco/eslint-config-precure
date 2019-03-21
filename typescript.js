@@ -129,7 +129,8 @@ module.exports = {
 
     // prettierで修正される
     '@typescript-eslint/type-annotation-spacing': 'off',
-    '@typescript-eslint/promise-function-async': 'error',
+    // 挙動が怪しいのでOFFにする
+    '@typescript-eslint/promise-function-async': 'off',
     '@typescript-eslint/no-require-imports': 'error',
     '@typescript-eslint/no-for-in-array': 'error',
     '@typescript-eslint/require-array-sort-compare': 'error',
