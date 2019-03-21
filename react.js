@@ -24,5 +24,7 @@ module.exports = {
 
     // hooks
     'react-hooks/rules-of-hooks': 'error',
+    // 型を使う
+    'react/prop-types': 'off',
   },
 }
