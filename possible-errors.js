@@ -20,7 +20,8 @@ module.exports = {
     'no-empty-character-class': 2,
     'no-empty': 2,
     'no-ex-assign': 2,
-    'valid-jsdoc': [2, { requireReturn: false }],
+    // 'valid-jsdoc': [2, { requireReturn: false }],
+    'valid-jsdoc': 0,
 
     // es6
     'no-new-symbol': 2,
