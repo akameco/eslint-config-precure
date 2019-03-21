@@ -138,5 +138,6 @@ module.exports = {
     '@typescript-eslint/require-array-sort-compare': 'error',
     '@typescript-eslint/prefer-function-type': 'error',
     '@typescript-eslint/no-unnecessary-qualifier': 'error',
+    '@typescript-eslint/unified-signatures': 'error',
   },
 }
