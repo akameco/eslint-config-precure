@@ -54,7 +54,7 @@
   },
   "devDependencies": {
     "@akameco/eslint-find-rules": "3.4.0",
-    "all-contributors-cli": "6.2.0",
+    "all-contributors-cli": "6.3.0",
     "eslint": "5.16.0",
     "flow-bin": "0.97.0",
     "husky": "1.3.1",
