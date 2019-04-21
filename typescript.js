@@ -127,8 +127,8 @@ module.exports = {
     // },
     // ],
     '@typescript-eslint/no-var-requires': 'error',
-    // どちらかに統一した方が望ましい。コミュニティ的には、interfaceがメジャーなので従う。
-    '@typescript-eslint/prefer-interface': 'error',
+    // interfaceよりtype
+    '@typescript-eslint/prefer-interface': 'off',
     '@typescript-eslint/prefer-namespace-keyword': 'error',
     '@typescript-eslint/restrict-plus-operands': 'error',
 
