@@ -74,7 +74,10 @@ module.exports = {
     ],
     // '@typescript-eslint/explicit-function-return-type': '',
     // すべてがpublicであるべき
-    '@typescript-eslint/explicit-member-accessibility': 'off',
+    '@typescript-eslint/explicit-member-accessibility': [
+      'error',
+      { accessibility: 'no-public' },
+    ],
     // Tまたは2文字以上の任意の文字列を許容する
     '@typescript-eslint/generic-type-naming': ['error', '^T$|^[A-Z][a-zA-Z]+$'],
     // prettier
@@ -139,5 +142,12 @@ module.exports = {
     '@typescript-eslint/prefer-function-type': 'error',
     '@typescript-eslint/no-unnecessary-qualifier': 'error',
     '@typescript-eslint/unified-signatures': 'error',
+    '@typescript-eslint/prefer-for-of': 'error',
+    '@typescript-eslint/prefer-includes': 'error',
+    '@typescript-eslint/prefer-string-starts-ends-with': 'error',
+    // type-checkに時間がかかるのでoff
+    '@typescript-eslint/await-thenable': 'off',
+    '@typescript-eslint/no-extra-parens': 'off',
+    '@typescript-eslint/unbound-method': 'off',
   },
 }

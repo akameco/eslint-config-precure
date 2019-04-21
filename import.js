@@ -97,5 +97,6 @@ module.exports = {
     'import/dynamic-import-chunkname': 0, // prettier案件
     // 辛すぎて生産性が落ちる。無効
     'import/no-relative-parent-imports': 0,
+    'import/no-unused-modules': 0, // TypeScriptで検知できればいい
   },
 }
