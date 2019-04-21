@@ -10,10 +10,9 @@
 ## Features
 
 - prettier
-- react
-- react
-- flowtype
+- React
 - TypeScript
+- flowtype (maintenance mode)
 
 ## Install
 
