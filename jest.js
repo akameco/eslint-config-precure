@@ -33,6 +33,7 @@ module.exports = {
     'jest/prefer-todo': 0,
     'jest/prefer-called-with': 2,
     'jest/no-empty-title': 2,
+    'jest/no-mocks-import': 2,
   },
   env: {
     'jest/globals': true,

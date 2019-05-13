@@ -134,6 +134,8 @@ module.exports = {
 
     // prettierで修正される
     '@typescript-eslint/type-annotation-spacing': 'off',
+    '@typescript-eslint/func-call-spacing': 'off',
+    '@typescript-eslint/semi': 'off',
     // 挙動が怪しいのでOFFにする
     '@typescript-eslint/promise-function-async': 'off',
     '@typescript-eslint/no-require-imports': 'error',
@@ -149,5 +151,9 @@ module.exports = {
     '@typescript-eslint/await-thenable': 'off',
     '@typescript-eslint/no-extra-parens': 'off',
     '@typescript-eslint/unbound-method': 'off',
+    // arr.length - 1 === index のパターンがある
+    '@typescript-eslint/no-magic-numbers': 'off',
+    // ドキュメントに記載なし
+    '@typescript-eslint/indent-new-do-not-use': 'off',
   },
 }
