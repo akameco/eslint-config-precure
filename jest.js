@@ -34,6 +34,8 @@ module.exports = {
     'jest/prefer-called-with': 2,
     'jest/no-empty-title': 2,
     'jest/no-mocks-import': 2,
+    // 必要なし
+    'jest/no-commented-out-tests': 0,
   },
   env: {
     'jest/globals': true,
