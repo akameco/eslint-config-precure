@@ -9,5 +9,7 @@ module.exports = {
     'unicorn/filename-case': 0,
     // 多く場合flowtypeを使うので無効
     'unicorn/no-fn-reference-in-iterator': 0,
+    // 流石にうるさい
+    'unicorn/prevent-abbreviations': 0,
   },
 }
