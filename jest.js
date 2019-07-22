@@ -36,6 +36,10 @@ module.exports = {
     'jest/no-mocks-import': 0,
     // 必要なし
     'jest/no-commented-out-tests': 0,
+    'jest/no-duplicate-hooks': 2,
+    'jest/no-export': 2,
+    'jest/no-if': 2,
+    'jest/no-try-expect': 0,
   },
   env: {
     'jest/globals': true,
