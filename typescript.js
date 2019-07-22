@@ -118,7 +118,7 @@ module.exports = {
     // ],
     '@typescript-eslint/no-var-requires': 'error',
     // interfaceよりtype
-    '@typescript-eslint/prefer-interface': 'off',
+    '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
     '@typescript-eslint/prefer-namespace-keyword': 'error',
     '@typescript-eslint/restrict-plus-operands': 'error',
 
