@@ -149,10 +149,13 @@ module.exports = {
     '@typescript-eslint/prefer-readonly': 'error',
     '@typescript-eslint/triple-slash-reference': ['error', { path: 'never' }],
     '@typescript-eslint/no-explicit-any': [
+      'error',
       {
         fixToUnknown: true,
         ignoreRestArgs: true,
       },
     ],
+    'no-empty-function': 'off',
+    '@typescript-eslint/no-empty-function': 'error',
   },
 }
