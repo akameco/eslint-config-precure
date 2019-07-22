@@ -106,7 +106,6 @@ module.exports = {
     '@typescript-eslint/no-parameter-properties': 'error',
     // 一旦 cosnt {props, state} = this; も無効
     '@typescript-eslint/no-this-alias': 'error',
-    '@typescript-eslint/no-triple-slash-reference': 'error',
     '@typescript-eslint/no-unnecessary-type-assertion': 'error',
     '@typescript-eslint/no-use-before-define': 'error',
     '@typescript-eslint/no-useless-constructor': 'error',
@@ -157,5 +156,6 @@ module.exports = {
     '@typescript-eslint/indent-new-do-not-use': 'off',
     '@typescript-eslint/prefer-regexp-exec': 'error',
     '@typescript-eslint/prefer-readonly': 'error',
+    '@typescript-eslint/triple-slash-reference': ['error', { path: 'never' }],
   },
 }
