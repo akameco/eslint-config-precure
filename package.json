@@ -29,7 +29,7 @@
     "find-new-rules:ts": "eslint-find-rules --unused -v ./other/test/ts.js",
     "find-new-rules:main": "eslint-find-rules --unused -v ./index.js",
     "eslint-check": "eslint --print-config .eslintrc | eslint-config-prettier-check",
-    "test": "yarn lint && yarn run find-new-rules"
+    "test": "yarn lint"
   },
   "lint-staged": {
     "*.{js,json,md}": [
@@ -54,7 +54,7 @@
   "devDependencies": {
     "@akameco/eslint-find-rules": "3.4.0",
     "all-contributors-cli": "6.8.1",
-    "eslint": "5.16.0",
+    "eslint": "6.1.0",
     "flow-bin": "0.103.0",
     "husky": "3.0.1",
     "lint-staged": "9.2.0",
