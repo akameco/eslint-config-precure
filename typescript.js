@@ -156,5 +156,6 @@ module.exports = {
     // ドキュメントに記載なし
     '@typescript-eslint/indent-new-do-not-use': 'off',
     '@typescript-eslint/prefer-regexp-exec': 'error',
+    '@typescript-eslint/prefer-readonly': 'error',
   },
 }
