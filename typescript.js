@@ -159,5 +159,11 @@ module.exports = {
     '@typescript-eslint/no-empty-function': 'error',
     // Disabled because of https://github.com/typescript-eslint/typescript-eslint/issues/647
     '@typescript-eslint/no-floating-promises': 'off',
+    // 様子見
+    // @see https://github.com/typescript-eslint/typescript-eslint/pull/612
+    '@typescript-eslint/no-misused-promises': 'off',
+    '@typescript-eslint/require-await': 'off',
+    // tscで型チェックされるので問題なし/書き心地を優先
+    '@typescript-eslint/strict-boolean-expressions': 'off',
   },
 }
