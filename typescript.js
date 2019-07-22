@@ -157,5 +157,7 @@ module.exports = {
     ],
     'no-empty-function': 'off',
     '@typescript-eslint/no-empty-function': 'error',
+    // Disabled because of https://github.com/typescript-eslint/typescript-eslint/issues/647
+    '@typescript-eslint/no-floating-promises': 'off',
   },
 }
