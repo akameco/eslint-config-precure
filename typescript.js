@@ -45,13 +45,6 @@ module.exports = {
           },
           object: 'Use `{}` instead.',
           Function: 'Use a specific function type instead, like `() => void`.',
-
-          // This one doesn't seem to be working.
-          // TODO: Report it.
-          any: {
-            message: 'Use `unknown` instead.',
-            fixWith: 'unknown',
-          },
           // TODO: Enforce `undefined` over `null` here too?
         },
       },
@@ -92,8 +85,6 @@ module.exports = {
     '@typescript-eslint/no-angle-bracket-type-assertion': 'error',
     '@typescript-eslint/no-array-constructor': 'error',
     '@typescript-eslint/no-empty-interface': 'error',
-    // ライブラリでanyが多かったら考える
-    '@typescript-eslint/no-explicit-any': 'error',
     '@typescript-eslint/no-extraneous-class': 'error',
 
     // TODO: ignoreParametersについては考える余地がある
@@ -157,5 +148,11 @@ module.exports = {
     '@typescript-eslint/prefer-regexp-exec': 'error',
     '@typescript-eslint/prefer-readonly': 'error',
     '@typescript-eslint/triple-slash-reference': ['error', { path: 'never' }],
+    '@typescript-eslint/no-explicit-any': [
+      {
+        fixToUnknown: true,
+        ignoreRestArgs: true,
+      },
+    ],
   },
 }
