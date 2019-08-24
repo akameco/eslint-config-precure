@@ -92,7 +92,6 @@ module.exports = {
     '@typescript-eslint/no-misused-new': 'error',
     '@typescript-eslint/no-namespace': 'error',
     '@typescript-eslint/no-non-null-assertion': 'error',
-    '@typescript-eslint/no-object-literal-type-assertion': 'error',
     // 混乱の元
     '@typescript-eslint/no-parameter-properties': 'error',
     // 一旦 cosnt {props, state} = this; も無効
