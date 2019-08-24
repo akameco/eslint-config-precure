@@ -21,7 +21,7 @@ module.exports = {
   },
   rules: {
     '@typescript-eslint/adjacent-overload-signatures': 'error',
-    '@typescript-eslint/array-type': ['error', 'array'],
+    '@typescript-eslint/array-type': 'error',
     // @see https://github.com/xojs/eslint-config-xo-typescript/blob/25141762939d766ec0cf569571a430fdfbd51dae/index.js#L36-L68
     '@typescript-eslint/ban-types': [
       'error',
@@ -82,7 +82,7 @@ module.exports = {
     '@typescript-eslint/member-naming': ['error', { private: '^_' }],
     // 自動修正されないのでうるさい可能性が大きい
     '@typescript-eslint/member-ordering': 'error',
-    '@typescript-eslint/no-angle-bracket-type-assertion': 'error',
+    '@typescript-eslint/consistent-type-assertions': 'error',
     '@typescript-eslint/no-array-constructor': 'error',
     '@typescript-eslint/no-empty-interface': 'error',
     '@typescript-eslint/no-extraneous-class': 'error',
