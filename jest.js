@@ -37,7 +37,7 @@ module.exports = {
     // 必要なし
     'jest/no-commented-out-tests': 0,
     'jest/no-duplicate-hooks': 2,
-    'jest/no-export': 2,
+    'jest/no-export': 0,
     'jest/no-if': 2,
     'jest/no-try-expect': 0,
   },
