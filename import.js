@@ -84,7 +84,7 @@ module.exports = {
     // export defaultはrollupできず、追いづらくなる可能性がある
     'import/prefer-default-export': 0,
     'import/unambiguous': 0, // not sure I understand this rule well enough right now...
-    'import/exports-last': 1,
+    'import/exports-last': 0,
 
     'import/no-useless-path-segments': 2,
     'import/no-self-import': 2,
