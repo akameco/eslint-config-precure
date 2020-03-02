@@ -30,7 +30,7 @@ module.exports = {
     // rules
     'no-var': 2,
     'object-shorthand': [2, 'always'],
-    'prefer-arrow-callback': 2,
+    'prefer-arrow-callback': 0,
     'prefer-const': [2, { destructuring: 'all' }],
     'prefer-numeric-literals': 2,
     'prefer-rest-params': 2,
@@ -62,7 +62,7 @@ module.exports = {
     'no-unsafe-negation': 2,
     'use-isnan': 2,
     'valid-typeof': [2, { requireStringLiterals: true }],
-    'no-unexpected-multiline': 2,
+    'no-unexpected-multiline': 0,
     'accessor-pairs': 2,
     'array-callback-return': 2,
     'block-scoped-var': 2,
@@ -160,7 +160,7 @@ module.exports = {
 
     'func-name-matching': 2,
     'func-names': [2, 'never'],
-    'linebreak-style': [2, 'unix'],
+    'linebreak-style': 0,
     'max-depth': 1,
     'max-nested-callbacks': [1, 4],
     'max-params': [1, { max: 4 }],
