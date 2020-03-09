@@ -23,7 +23,6 @@ module.exports = {
     'jest/no-alias-methods': 2,
     'jest/no-test-return-statement': 2,
     'jest/no-jasmine-globals': 2,
-    'jest/require-tothrow-message': 2,
     'jest/prefer-inline-snapshots': 0,
     'jest/prefer-to-contain': 2,
     'jest/no-test-callback': 2,
@@ -32,7 +31,6 @@ module.exports = {
     // よくわからない挙動をするのでOFF
     'jest/prefer-todo': 0,
     'jest/prefer-called-with': 2,
-    'jest/no-empty-title': 2,
     'jest/no-mocks-import': 0,
     // 必要なし
     'jest/no-commented-out-tests': 0,
