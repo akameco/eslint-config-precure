@@ -58,14 +58,14 @@ module.exports = {
     ],
     '@typescript-eslint/class-name-casing': 'error',
     // 有効にしたいが、tsxとの組み合わせがよくないので一旦警告に留める
-    '@typescript-eslint/explicit-function-return-type': [
-      'warn',
-      {
-        allowExpressions: true,
-        // allowTypedFunctionExpressions: true,
-      },
-    ],
-    // '@typescript-eslint/explicit-function-return-type': '',
+    // '@typescript-eslint/explicit-function-return-type': [
+    // 'warn',
+    // {
+    // allowExpressions: true,
+    // // allowTypedFunctionExpressions: true,
+    // },
+    // ],
+    '@typescript-eslint/explicit-function-return-type': 'off',
     // すべてがpublicであるべき
     '@typescript-eslint/explicit-member-accessibility': [
       'error',
@@ -117,7 +117,7 @@ module.exports = {
     // ],
     '@typescript-eslint/no-var-requires': 'error',
     // interfaceよりtype
-    '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
+    '@typescript-eslint/consistent-type-definitions': 'off',
     '@typescript-eslint/prefer-namespace-keyword': 'error',
     '@typescript-eslint/restrict-plus-operands': 'error',
 
