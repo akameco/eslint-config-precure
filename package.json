@@ -52,13 +52,13 @@
   },
   "devDependencies": {
     "@akameco/eslint-find-rules": "3.4.0",
-    "eslint": "7.1.0",
-    "flow-bin": "0.125.1",
+    "eslint": "7.2.0",
+    "flow-bin": "0.126.1",
     "husky": "4.2.5",
-    "lint-staged": "10.2.7",
+    "lint-staged": "10.2.9",
     "npm-run-all": "4.1.5",
     "prettier": "2.0.5",
-    "typescript": "3.9.3"
+    "typescript": "3.9.5"
   },
   "peerDependencies": {
     "eslint": ">=3.0.0",
