@@ -47,7 +47,7 @@
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.12.4",
     "eslint-plugin-react-hooks": "^4.0.0",
-    "eslint-plugin-unicorn": "^20.0.0",
+    "eslint-plugin-unicorn": "^21.0.0",
     "ptils": "^0.3.0"
   },
   "devDependencies": {
